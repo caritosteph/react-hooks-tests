@@ -3,14 +3,18 @@ import ReactDOM from "react-dom";
 
 import { ContextTest } from "./CounterExample/CounterContext";
 import { ContextAsyncTest } from "./CounterAsyncExample/CounterAsyncContext";
+import { CustomCounter } from "./CustomCounter/CustomCounter";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <strong>Context Test</strong>
+    <strong>Custom Counter</strong>
+    <CustomCounter />
+    <br />
+    <strong>Context component</strong>
     <ContextTest />
     <br />
-    <strong>Context Async Test</strong>
+    <strong>Async Context component</strong>
     <ContextAsyncTest />
   </React.StrictMode>,
   rootElement
