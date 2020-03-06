@@ -1,7 +1,7 @@
 {
-  "name": "usereducer-and-usecontext",
+  "name": "react-hooks",
   "version": "1.0.0",
-  "description": "How to use useReducer with context.",
+  "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
